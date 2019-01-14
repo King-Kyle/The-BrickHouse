@@ -3,15 +3,15 @@
 /* NAV */
 
 a,nav {
-  color :#eee1c5
+  color : #95C623;
 }
 .nav-opt,.nav-opt-slide {
   font-size: 16px;
-  font-family: Oswald,sans-serif;
+  font-family: 'Kaushan Script', cursive;
   list-style-type: none
 }
 .hero-text,.nav-opt,.nav-opt-slide {
-  font-family: Oswald,sans-serif
+  font-family: 'Kaushan Script', cursive;
 }
 .col2,.nav-bar-slide,.nav-opt-slide,body,nav {
   background-color: #0e0e0e
@@ -54,6 +54,7 @@ nav {
   float: left;
   margin-left :5%;
   color: #fff;
+  font-family: 'Kaushan Script', cursive;
   font-size: 18px;
 }
 .nav-bar,.nav-opt {
@@ -108,18 +109,18 @@ nav {
 .hero-text h4 {
   font-size: 20px;
   width: auto;
-  border: 2px solid #eee1c5;
-  color: #eee1c5;
+  border: 2px solid #95C623;
+  color: #95C623;
   display: inline-block;
   padding: 5px 10px;
   margin: 30px auto 10px;
   cursor: pointer
 }
 #map,#sect-5-cont,.col2 h3,.section-text {
-  border: 6px solid #eee1c5
+  border: 6px solid #95C623
 }
 .col2,.section-text {
-  font-family: Oswald,sans-serif;
+  font-family: 'Kaushan Script', cursive;
   color: #fff;
   display: inline-block;
   text-align: center
@@ -200,8 +201,8 @@ nav {
   width: auto;
   height: 100px;
   margin: 120px 0 0;
-  color: #eee1c5;
-  font-family: Oswald,sans-serif
+  color: #95C623;
+  font-family: 'Kaushan Script', cursive;
 }
 .menu-font {
   font-size: 74px;
@@ -233,9 +234,9 @@ nav {
 .menu-item {
   width: 100%;
   max-width: 650px;
-  color: #eee1c5;
+  color: #95C623;
   margin-top: 20px;
-  font-family: Oswald,sans-serif;
+  font-family: 'Kaushan Script', cursive;
   vertical-align: top;
   text-align: left;
   clear: all
@@ -277,7 +278,7 @@ nav {
   display: inline-block
 }
 .menu-opt.selected {
-  background-color:#eee1c5;
+  background-color:#95C623;
   color:#000
 }
 #section5 {
@@ -289,7 +290,7 @@ nav {
   width: 35%;
   max-width: 750px;
   height: auto;
-  font-family: Oswald,sans-serif;
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
   margin-left: 2.5%;
   margin-top: 8%;
@@ -321,8 +322,8 @@ nav {
 #section7 {
   display: block;
   background-color: #0e0e0e;
-  color: #eee1c5;
-  font-family: Oswald,sans-serif
+  color: #95C623;
+  font-family: 'Kaushan Script', cursive;
 }
 #map {
   margin: 40px 10%;

@@ -102,6 +102,11 @@ $(document).ready(function(){
 
 });
 
+/* ===================================================================
+ * # MAP
+ *
+ * ------------------------------------------------------------------- */
+
 function initMap(){
 	var location = {lat: 51.513171, lng: -0.137846};
 	var map = new google.maps.Map(document.getElementById("map"),{
@@ -113,3 +118,25 @@ function initMap(){
 		map: map
 	});
 };
+
+/* ===================================================================
+ * # SMOOTH SCROLL
+ *
+ * ------------------------------------------------------------------- */
+
+ jQuery(document).ready(function($) {
+
+    $('.smoothscroll').on('click',function (e) {
+ 	    e.preventDefault();
+
+ 	    var target = this.hash,
+ 	    $target = $(target);
+
+ 	    $('html, body').stop().animate({
+ 	        'scrollTop': $target.offset().top
+ 	    }, 800, 'swing', function () {
+ 	        window.location.hash = target;
+ 	    });
+ 	});
+
+ });
