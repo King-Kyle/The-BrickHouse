@@ -108,7 +108,7 @@ $(document).ready(function(){
  * ------------------------------------------------------------------- */
 
 function initMap(){
-	var location = {lat: 51.513171, lng: -0.137846};
+	var location = {lat: -33.934401, lng: 18.443740};
 	var map = new google.maps.Map(document.getElementById("map"),{
 		zoom: 12,
 		center: location,

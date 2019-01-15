@@ -145,7 +145,7 @@ nav {
 }
 .col2 {
   vertical-align: top;
-  font-size: 64px
+  font-size: 55px
 }
 .col2 h3 {
   display: inline-block;
@@ -342,7 +342,10 @@ nav {
 #contact-us {
   width: 33.33%;
   height: auto
-  }
+}
+.fab {
+  margin-right: 10px;
+}
 .contact-us-head {
   font-size: 18px;
   width: 100%
