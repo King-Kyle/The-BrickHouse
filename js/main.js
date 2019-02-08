@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	/*menu bar and cross function*/
+	/* menu bar and cross function */
 
 	$("#menu-icon").click(function(){
 		$("#nav-bar-slide").addClass("show");
@@ -21,7 +21,7 @@ $(document).ready(function(){
 	});
 
 
-	/*menu listing functioning*/
+	/* menu listing functioning */
 
 	$("#beers").click(function(){
 		$(".menu-opt").addClass("selected");
@@ -103,9 +103,9 @@ $(document).ready(function(){
 });
 
 /* ===================================================================
- * # MAP
- *
- * ------------------------------------------------------------------- */
+* # MAP
+*
+* ------------------------------------------------------------------- */
 
 function initMap(){
 	var location = {lat: -33.934401, lng: 18.443740};
@@ -120,23 +120,23 @@ function initMap(){
 };
 
 /* ===================================================================
- * # SMOOTH SCROLL
- *
- * ------------------------------------------------------------------- */
+* # SMOOTH SCROLL
+*
+* ------------------------------------------------------------------- */
 
- jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
 
-    $('.smoothscroll').on('click',function (e) {
- 	    e.preventDefault();
+	$('.smoothscroll').on('click',function (e) {
+		e.preventDefault();
 
- 	    var target = this.hash,
- 	    $target = $(target);
+		var target = this.hash,
+		$target = $(target);
 
- 	    $('html, body').stop().animate({
- 	        'scrollTop': $target.offset().top
- 	    }, 800, 'swing', function () {
- 	        window.location.hash = target;
- 	    });
- 	});
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 800, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
 
- });
+});

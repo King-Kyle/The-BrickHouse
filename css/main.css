@@ -1,44 +1,21 @@
+/* ===================================================================
+* # BASE
+* ------------------------------------------------------------------- */
 
-/* NAV */
-
-a,nav {
-  color : #000;
-}
-.nav-opt,.nav-opt-slide {
-  font-size: 16px;
-  font-family: 'PT Sans', sans-serif;
-  list-style-type: none
-}
-.hero-text {
-  font-family: 'PT Sans', sans-serif;
-  color: #000;
-}
-.col2,.nav-bar-slide,.nav-opt-slide,body,nav {
-  background-color: #f2f2f2;
-}
-.menu-list,.nav-opt,.nav-opt-slide {
-  list-style-type :none
-}
-
-#hero,#menu-item-cont,.hero-text {
-  position: relative
-}
-#section3,#section4,#section5,.col1,.col3 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center
-}
-#sect-5-cont,#section7,.section-text {
-  box-sizing: border-box
-}
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden
 }
+
 a {
   text-decoration: none
 }
+
+/* ===================================================================
+* # NAV
+* ------------------------------------------------------------------- */
+
 nav {
   width: 100%;
   height: 60px;
@@ -47,6 +24,17 @@ nav {
   top: 0;
   z-index: 5;
 }
+
+a,nav {
+  color : #000;
+}
+
+.nav-opt,.nav-opt-slide {
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  list-style-type: none
+}
+
 .logo-stamp {
   width: 120px;
   height: 60px;
@@ -57,28 +45,52 @@ nav {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
 }
+
 .nav-bar,.nav-opt {
   display: inline-block;
   float: right;
 }
+
 .nav-bar {
   width: auto;
   height: 60px;
   margin: 0 5% 0 0;
   vertical-align: bottom;
 }
+
 .nav-opt{
   padding: 5px;
   margin: 13px 20px;
 }
+
 #cross-icon p,#menu-icon p,.nav-bar-slide,.nav-opt-slide {
   display: none
 }
 
-/* BODY */
+/* ===================================================================
+* # HERO
+* ------------------------------------------------------------------- */
+
+.hero-text {
+  font-family: 'PT Sans', sans-serif;
+  color: #000;
+}
+
+.col2,.nav-bar-slide,.nav-opt-slide,body,nav {
+  background-color: #f2f2f2;
+}
+
+.menu-list,.nav-opt,.nav-opt-slide {
+  list-style-type :none
+}
+
+#hero,#menu-item-cont,.hero-text {
+  position: relative
+}
 
 .hero-text,.logo {
-  display: inline-block}
+  display: inline-block
+}
 
 #hero {
   background-image: url(../images/interior4.jpg);
@@ -90,19 +102,22 @@ nav {
   height: 100vh;
   color: #fff;
 }
+
 .layer {
-    background-color: rgba(169, 197, 47, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(169, 197, 47, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
 .logo {
   width: 50%;
   height: 25%;
   color: #fff
 }
+
 .hero-text {
   width: 600px;
   height: auto;
@@ -114,6 +129,13 @@ nav {
   font-size: 12px;
   text-align: center;
 }
+
+.hero-text h2 {
+  display: inline-block;
+  margin: 10px auto;
+  font-size: 62px
+}
+
 .hero-text h4 {
   font-size: 20px;
   width: auto;
@@ -124,52 +146,71 @@ nav {
   margin: 30px auto 10px;
   cursor: pointer
 }
+
+/* ===================================================================
+* # BODY
+* ------------------------------------------------------------------- */
+
+#section3,#section4,#section5,.col1,.col3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+#sect-5-cont,#section7,.section-text {
+  box-sizing: border-box
+}
+
 #map,#sect-5-cont,.col2 h3,.section-text {
   border: 6px solid #95C623
 }
+
 .col2,.section-text {
   font-family: 'PT Sans', sans-serif;
   color: #000;
   display: inline-block;
   text-align: center
 }
-.hero-text h2 {
-  display: inline-block;
-  margin: 10px auto;
-  font-size: 62px
-}
+
 #section2 {
   display: inline-block;
   width: 100%;
   height: 100vh
 }
+
 .third {
   background-color: #f2f2f2;
   display: inline-block;
   width: 33.3333%;
   height: 100%
 }
+
 .col1 {
   background-image: url(../images/interior.jpg)
 }
+
 .col2 {
   vertical-align: top;
   font-size: 55px
 }
+
 .col2 h3 {
   display: inline-block;
   margin: 50% auto;
   padding: 30px
 }
+
 .col3 {
   background-image: url(../images/serve.jpg)
 }
+
 #section3 {
   background-image: url(../images/dining3.jpg);
   width: 100%;
   height: 800px;
   overflow: hidden;
 }
+
 .section-text {
   color: white;
   width: 35%;
@@ -178,18 +219,26 @@ nav {
   margin-left: 2.5%;
   margin-top: 8%;
 }
+
 .section-head {
   font-size: 48px;
   margin: 20px 50px
 }
+
 .section-subhead {
   font-size: 28px;
   margin: 30px 50px;
 }
+
 .section-para {
   font-size: 22px;
   margin: 20px 50px 40px;
 }
+
+/* ===================================================================
+* # MENU
+* ------------------------------------------------------------------- */
+
 #section4 {
   background-color: #f1f1f1;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%2387e752' fill-opacity='0.19' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
@@ -198,16 +247,19 @@ nav {
   margin-top: 5px;
   padding-bottom: 250px;
 }
+
 .section4-back {
   width: 100%;
   height: 100%;
   margin: 120px 0;
 }
+
 .food-menu {
   display: block;
   width: 90%;
   margin: 0 5%
 }
+
 .menu-font,.menu-list {
   width: auto;
   height: 100px;
@@ -215,25 +267,30 @@ nav {
   color: #95C623;
   font-family: 'PT Sans', sans-serif;
 }
+
 .menu-font {
   font-size: 74px;
   display: inline-block;
   float: left
 }
+
 .menu-list,.menu-opt {
   display: inline-block;
   vertical-align: bottom;
   float: right
 }
+
 .menu-list {
   font-size: 34px;
   padding: 0
 }
+
 .menu-opt{
   margin:50px 20px 0;
   padding:10px;
   cursor:pointer
 }
+
 #menu-item-cont {
   width: 100%;
   display: block;
@@ -242,6 +299,7 @@ nav {
   clear: both;
   top: 90px
 }
+
 .menu-item {
   width: 100%;
   max-width: 650px;
@@ -252,51 +310,66 @@ nav {
   text-align: left;
   clear: all
 }
+
 .menu-item-title {
   display: inline-block;
   padding: 5px 10px 0 0;
   float: left
 }
+
 .menu-item-portion {
   display: inline-block;
   float: left;
   padding: 5px 10px 0 20px
 }
+
 .menu-item-price {
   display: inline-block;
   float: right;
   margin-right: 25%;
   padding: 5px 10px 0 5px
 }
+
 .menu-item-description-cont {
   display: inline-block;
   width: 100%;
   height: 170px
 }
+
 .menu-item-description {
   display: inline-block;
   padding: 0 10px 0 0;
   width: 50%
 }
+
 #section5,#section7 {
   width: 100%;
   height: auto
 }
+
 .menu-item.hide {
   display: none
 }
+
 #map,#sect-5-cont,.menu-item.show,.menu-opt-spliter {
   display: inline-block
 }
+
 .menu-opt.selected {
   background-color:#95C623;
   color:#000
 }
+
+/* ===================================================================
+* # ABOUT
+* ------------------------------------------------------------------- */
+
 #section5 {
   background-image:url(../images/green.jpg);
   margin-top:5px;
   padding-bottom:40px
 }
+
 #sect-5-cont {
   width: 35%;
   max-width: 750px;
@@ -308,21 +381,29 @@ nav {
   margin-bottom: 8%;
   color: #fff
 }
+
 .about-us-head {
   font-size: 48px;
   margin: 20px 50px;
   padding: 0
 }
+
 .about-us-subhead {
   font-size: 28px;
   margin: 30px 50px;
   padding: 0
 }
+
 .about-us-text {
   font-size: 22px;
   margin: 20px 20px 40px;
   padding: 0
 }
+
+/* ===================================================================
+* # FOOTER
+* ------------------------------------------------------------------- */
+
 #contact-us,#find-us,#search-us {
   vertical-align: top;
   background-color: #f4f4f4;
@@ -330,37 +411,45 @@ nav {
   padding-bottom: 10px;
   text-align: center
 }
+
 #section7 {
   display: block;
   background-color: #f4f4f4;
   color: #95C623;
   font-family: 'PT Sans', sans-serif;
 }
+
 #map {
   margin: 40px 10%;
   width: 80%;
   height: 600px
 }
+
 #sect-7-cont {
   display: block;
   width: 80%;
   margin-left: 10%;
   background-color: #f4f4f4
 }
+
 #contact-us,#find-us,#search-us,.contact-us-head,.search-us-head {
   display: inline-block
 }
+
 #contact-us {
   width: 33.33%;
   height: auto
 }
+
 .fab {
   margin-right: 10px;
 }
+
 .contact-us-head {
   font-size: 18px;
   width: 100%
 }
+
 .contact-us-text {
   height: 100px
 }
@@ -368,100 +457,133 @@ nav {
   width: 33.33%;
   height: auto
 }
+
 #search-us {
   width: 33.34%;
   height: 100%
 }
+
 .search-us-icon {
   height: 100px
 }
+
 .search-us-head {
   font-size: 18px
 }
 
-/* MEDIA QUERIES */
+
+/* ===================================================================
+* # MEDIA QUERIES LARGE
+* ------------------------------------------------------------------- */
 
 @media screen and (max-width:1320px) {
+
   .menu-font,.menu-list {
     text-align: center;
     float: none
   }
+
   .menu-font,.menu-list,.menu-opt {
     float: none
   }
+
   .col2,.contact-us-head,.menu-opt-spliter {
     display: inline-block
   }
+
   .col1 {
     width: 50%
   }
+
   .col2 {
     position: absolute;
     background: 0 0;
     right: 10%;
     width: 80%
   }
+
   .col2 h3 {
     margin: 45% auto auto;
     border: none
   }
+
   #sect-5-cont,.section-text {
     margin-left: 5%;
     max-width: none
   }
+
   .col3 {
     width: 50%
   }
+
   .section-text {
     width: 90%
   }
+
   .section-head {
     font-size: 32px
   }
+
   .section-subhead {
     font-size: 25px
   }
+
   .section-para {
     font-size: 20px
   }
+
   .menu-list {
     margin-top: 15px;
     width: 100%;
     height: auto
   }
+
   .menu-font {
     margin-top:45px;
     width: 100%
   }
+
   #sect-5-cont {
     width: 90%;
     margin-top: 20%
   }
+
   .about-us-head {
     font-size: 32px
   }
+
   .about-us-subhead {
     font-size: 25px
   }
+
   .about-us-para {
     font-size: 20px
   }
+
   #sect-7-cont {
     width: 100%;
     margin-left: 0
   }
+
   .contact-us-head {
     font-size: 18px
   }
 }
 
-@media screen and (max-width:865px) and (min-width:100px){
+/* ===================================================================
+* # MEDIA QUERIES MEDIUM
+* ------------------------------------------------------------------- */
+
+@media screen and (max-width:865px) and (min-width:100px) {
+
   #nav-bar-slide.hide,#nav-bar-slide.show,.nav-opt-slide {
     transition:all .3s ease-in-out
   }
+
   .nav-bar {
     display:none
   }
+
   #nav-bar-slide {
     display: block;
     position: absolute;
@@ -471,6 +593,7 @@ nav {
     padding: 10px;
     text-align: center
   }
+
   .nav-opt-slide {
     list-style-type: none;
     display: block;
@@ -479,37 +602,46 @@ nav {
     height: 40px;
     width: 100px
   }
+
   #cross-icon p,#menu-icon p,.display {
     display:inline-block;
     float:right;
     font-size:40px;
     margin:-1px 5% 0 0
   }
+
   .nav-opt-slide a {
     vertical-align:bottom
   }
+
   #nav-bar-slide.show {
     right:0
   }
+
   #nav-bar-slide.hide {
     right:-140px
   }
+
   .remove {
     display:none
   }
+
   #section4 {
     padding-bottom:150px
   }
+
   .menu-item-portion,.menu-item-price {
     font-size:18px;
     vertical-align:bottom;
     padding:0;
     margin:27px 0 10px;
   }
+
   .menu-item-description {
     font-size: 18px;
     width: 75%;
   }
+
   #contact-us,#find-us,#search-us {
     display: block;
     text-align: center;
@@ -517,37 +649,50 @@ nav {
     margin: 0 auto;
     padding-top: 0;
   }
+
   #section5 {
     padding-bottom: 0
   }
+
   #sect-5-cont {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
   .about-us-subhead {
     font-size: 22px;
   }
+
   .about-us-text,.contact-us-head {
     font-size: 18px;
   }
+
   #sect-7-cont {
     width: 100%;
     margin-left: 0;
     padding-top: 20px;
   }
+
   .contact-us-text {
     height: auto;
     font-size: 14px;
   }
 }
 
+/* ===================================================================
+* # MEDIA QUERIES SMALL
+* ------------------------------------------------------------------- */
+
 @media screen and (max-width:590px){
+
   .hero-text {
     width: 300px;
   }
+
   .hero-text h2 {
     font-size: 34px;
   }
+
   .col2 {
     font-size: 40px;
   }
