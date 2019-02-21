@@ -685,12 +685,28 @@ a,nav {
 
 @media screen and (max-width:590px){
 
+  .logo {
+    width: 200px;
+  }
+
   .hero-text {
     width: 300px;
   }
 
-  .hero-text h2 {
+  .third h3 {
     font-size: 34px;
+  }
+
+  .hero-text h2 {
+    font-size: 24px;
+  }
+
+  #section3 .section-subhead {
+    margin: 20px;
+  }
+
+  #section3 .section-para {
+    margin: 20px;
   }
 
   .col2 {
